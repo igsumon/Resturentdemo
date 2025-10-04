@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="descpription" content="Mika japanese restaurant ">
+    <title> Restaurant-Mika </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- header starts here -->
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <div class="logo">
+                    <h1>
+                        Restura Mika
+                    </h1>
+                    <span class="tagline">japanese restaurant</span>
+                </div>
+                <ul class="nav-links">
+                    <li> <a href="#home">Home</a></li>
+                      <li> <a href="#menu">Menu</a></li>
+                        <li> <a href="#about">About</a></li>
+                          <li> <a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- header ends here -->
+
+     <!-- main section starts here -->
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h2>
+                    Welcome to Restura Mika
+                </h2>
+                <p>The Estatic japanese Test in the heart of city.</p>
+                <div class="hero-buttons">
+                    <a href="#mebu" class="btn btn-primary">View Menu</a>
+                    <a href="#contact" class="btn btn-secondary">Make Reservation</a>
+                </div>
+            </div>
+        </section>
+        <section id="menu" class="menu">
+            <div class="container">
+                <h2 class="section-title">Our Menu</h2>
+                <p class="section-subtitle">Searching Delicios meal here!</p>
+            </div>
+            <div class="menu-categories">
+                <div class="menu-category">
+                    <h3>Appetizer</h3>
+                </div>
+                <div class="menu-items">
+                <div class="menu-item">
+                      <div class="menu-item-info"> 
+                         <h4> Sushi</h4>
+                        <p>Vinegared rice with tasty toppings.</p></div>
+                        <span class="price">$20</span>
+                    </div>
+                    <div class="menu-item">
+                      <div class="menu-item-info"> 
+                         <h4> Ramen </h4>
+                        <p>Flavourful, hearty noodle soup.</p></div>
+                        <span class="price">$29</span>
+                    </div>
+                    <div class="menu-item">
+                      <div class="menu-item-info"> 
+                         <h4> Miso Soup </h4>
+                        <p>Savoury soup with tofu and seaweed.</p></div>
+                        <span class="price">$09</span>
+                    </div>
+                    <div class="menu-item">
+                      <div class="menu-item-info"> 
+                         <h4>Tonkatsu</h4>
+                        <p>Crispy, succulent pork cutlet.</p></div>
+                        <span class="price">$14</span>
+                    </div>
+                    <div class="menu-item">
+                      <div class="menu-item-info"> 
+                         <h4>Onigiri </h4>
+                        <p> Rice balls with flavourful fillings.</p></div>
+                        <span class="price">$24</span>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+        <section id="about" class="about">
+            <div class="about">
+                <h2 class="section-title">About Restura Mika</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <h3>Our Story</h3>
+                        <p>Founded in 1985 by the Yeager Family, Restura Mika has been serving authentic Japanese cuisine for over three decades. Our passion for traditional recipes and fresh ingredients has been made us a beloved destination for food lovers
+
+                        </p><br>
+                             <p>
+                           Every dish is prepared with love and attention to detail, using recipes passed down througn generations of Japanese chefs.</p>
+
+                    </div>
+                    <div class="about-image">
+                        <img src="interiorimg.jpg" alt="Resturent Interior"  >
+                    </div>
+
+                 
+                </div>
+                
+            </div>
+
+        </section>
+
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2
+                class="section-title">Contact us</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h3>
+                            Get in Touch
+                        </h3>
+                        <div class="contact-info">
+                            <strong>Address:</strong>
+                            <p>123 Park Street, Joy city Kolkata</p>
+                        </div>
+                        <div class="contact-info">
+                            <strong>Phone:</strong>
+                            <p>(91+)123-4567-890</p>
+                        </div>
+                         <div class="contact-info">
+                            <strong>Email:</strong>
+                            <p>Info@resturamika.co</p>
+                        </div>
+                    </div>
+                    <div class="contact-form">
+                        <h3>
+                            Make a Reservation
+                        </h3>
+                        <form action="">
+                            <div class="form-group">
+                                <label for="name">Full Name:</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                                 <div class="form-group">
+                                <label for="email">Email:</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                                 <div class="form-group">
+                                <label for="phone">Phone:</label>
+                                <input type="tel" id="phone" name="phone" required>
+                            </div>
+                                 <div class="form-group">
+                                <label for="date">Reservation Date:</label>
+                                <input type="date" id="date" name="date" required>
+                            </div>
+                                 <div class="form-group">
+                                <label for="time">Time:</label>
+                             <select name="time" id="time" required>
+                                <option value="">Select Time</option>
+                                 <option value="18:00">6:00 PM</option>
+                                   <option value="19:00">7:00 PM</option> 
+                                   <option value="20:00">8:00 PM</option> 
+                                    <option value="21:00">9:00 PM</option>
+
+                             </select>
+
+                            </div>
+                            <div class="form-group">
+                                <label for="guest">Number of Guest:</label>
+                             <select name="guest" id="guest" required>
+                                <option value="">Select Time</option>
+                                <option value="1">1 Guest </option>
+                                <option value="2">2 Guests</option> 
+                                <option value="3">3 Guests</option> 
+                                <option value="4">4 Guests</option>
+                                <option value="5">5+ Guests</option>
+
+                             </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="massage">Special Requests:</label>
+                                 <textarea name="massage" id="massage" rows="4" placeholder="Any special requests or requirements...:"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Submit Reservation</button>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+    <!-- main section ends here -->
+     <!-- footer starts here -->
+
+     <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Restaurant Mika</h3>
+                    <p>Authentic japanese cuisine in the heart of the city. Experience the taste of japanese with every bite.</p>
+                </div>
+                <div class="footer-section1">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li>
+                            <a href="#home">Home</a>
+                        </li>
+                        <li>
+                            <a href="#menu">Menu</a>
+                        </li>
+                        <li>
+                            <a href="#about">About</a>
+                        </li>
+                        <li>
+                            <a href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Opening Hours</h4>
+                    <p>Monday - Thursday: 11:00 AM - 10:00 PM</p>
+                    <p> Friday - Saturday: 11:00 AM - 11:00 PM </p>
+                    <p>Sunday: 12:00 PM - 9:00 PM</p>
+                </div>
+                 <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/share/1CHNKt2HG7/" class="social-link">Facebook</a>
+                          <a href="https://www.instagram.com/xox.akhlak?igsh=MXFsazcyNWhiODBhZg==" class="social-link">Instagram</a>
+                            <a href="https://x.com/NxtSumon?t=lK31MVeOpmyMUOvIlkQnRg&s=09" class="social-link">Twitter</a>
+                    </div>
+                    
+                </div>
+                
+            </div>
+        </div>
+         <div class="footer-bottom">
+                    <p>&copy; 2024 Restura Mika. All rights reserved</p>
+                 </div>
+
+     </footer>
+      <!-- footer ends here -->
+</body>
+</html>
